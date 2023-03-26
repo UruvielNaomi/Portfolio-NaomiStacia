@@ -1,0 +1,19 @@
+:root {
+    --main-color: #8C3839;
+    --secondary-color: #F0C146;
+    --third-color: #CEDEEB;
+}
+
+body {
+    background: var(--main-color);
+    color: var(--third-color);
+}
+
+.index-page-text {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+}
+.student-text {
+    font-size: 26px;
+    font-family: 'Questrial', sans-serif;
+}
