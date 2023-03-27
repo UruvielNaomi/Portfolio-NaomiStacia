@@ -29,6 +29,7 @@
     margin-top: 50px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+    font-size: 26px;
 }
 
 .student-text {
@@ -36,7 +37,7 @@
     font-family: 'Questrial', sans-serif;
     display: flex;
     justify-content: end;
-    margin-right: 50px;
+    margin-right: 70px;
     margin-top: -20px;
 
 }
@@ -66,4 +67,25 @@
     display: flex;
     margin-top: 100px;
     margin-left: 50px;
+}
+
+@media (max-width:567px) {
+    .hello {
+        font-size: 100px;
+        margin-top: 170px;
+    }
+
+    .welcome {
+        font-size: 50px;
+    }
+
+    .name-naomi {
+        transform: none;
+        display: block;
+        text-align: center;
+    }
+
+    .name-naomi, .student-text {
+        font-size: 20px;
+    }
 }
