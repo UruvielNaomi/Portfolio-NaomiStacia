@@ -5,10 +5,20 @@
       --box-shadow: 3px 3px 3px rgba(102, 99, 81, 0.6);
 }
 
+a {
+    text-decoration: none;
+}
+
 .about-page {
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/074/962/original/Hello!_I_am_Naomi.png?1680505459");
     background-size: cover;
     background-repeat: repeat;
+}
+
+.about-page .button-element {
+    display: block;
+    margin-left: 850px;
+    margin-top: 150px;
 }
 
 .about-page h1 {
@@ -40,6 +50,7 @@
   font-size: 14px;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
+  background: #F0C146;
 }
 
 .contact-element {
@@ -192,6 +203,9 @@
         top: 200px;
         left: 35px;
     }
+    .about-page .button-element {
+    margin-left: 600px;
+    }
 }
 
 @media (max-width:999px) {
@@ -219,6 +233,10 @@
     }
     .about-page h2 {
         font-size: 20px;
+    }
+    .about-page .button-element {
+        margin-left: 200px;
+        margin-top: 0px;
     }
     .about-page .name-naomi {
         display: none;
