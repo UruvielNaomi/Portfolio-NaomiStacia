@@ -212,7 +212,7 @@
         background-position: center;
     }
     .about-page h1{
-        font-size: 40px;
+        font-size: 44px;
         position: relative;
         top:-150px;
         left: 200px;
@@ -225,6 +225,10 @@
     }
     .about-page .introduction-section {
         top: 40px;
+    }
+
+    .about-page .left-vertical-hr, .right-vertical-hr {
+        display: none;
     }
 
     .hello-text {
@@ -244,7 +248,7 @@
         padding: 0px 40px;
         text-align: center;
         position: relative;
-        top: -100px;
+        top: -120px;
     }
 
     .name-naomi {
