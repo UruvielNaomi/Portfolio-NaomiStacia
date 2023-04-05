@@ -137,6 +137,23 @@ a {
     width: 380px;
     }
 
+.projects-page {
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/075/341/original/Untitled_design_%281%29.png?1680685963")
+}
+
+.projects-page h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+}
+
+.project-picture {
+  width: 300px;
+}
+
 .low-horizontal-hr {
     border-width: 4px;
     opacity: unset;
