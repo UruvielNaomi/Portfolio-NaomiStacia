@@ -175,6 +175,11 @@ a {
   margin: 0 auto;
   border: solid 4px rgb(255, 255, 255, 0.7);
   border-radius: 8px;
+  transition: all 200ms ease-in-out;
+}
+
+.project-picture:hover {
+    transform: scale(1.8);
 }
 
 .low-horizontal-hr {
