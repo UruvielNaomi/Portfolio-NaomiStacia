@@ -2,7 +2,7 @@
     --main-color: #8C3839;
     --secondary-color: #F0C146;
     --third-color: #CEDEEB;
-      --box-shadow: 3px 3px 3px rgba(102, 99, 81, 0.6);
+    --box-shadow: 3px 3px 3px rgba(102, 99, 81, 0.6);
 }
 
 a {
@@ -149,7 +149,7 @@ a {
     display: flex;
     justify-content: start;
     padding: 20px;
-    margin: 100px;
+    margin: 120px;
 }
 
 .projects-page h2 {
@@ -164,6 +164,15 @@ a {
   font-size: 20px;
 }
 
+.projects-page .button-element{
+    box-shadow: 3px 3px 3px rgba(52, 6, 6, 0.6);
+}
+.projects-page .contact-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
 .projects-page .name-naomi {
   position: fixed;
   right: 0;
@@ -176,6 +185,7 @@ a {
   border: solid 4px rgb(255, 255, 255, 0.7);
   border-radius: 8px;
   transition: all 200ms ease-in-out;
+  box-shadow: 3px 3px 3px rgba(52, 6, 6, 0.4);
 }
 
 .project-picture:hover {
@@ -350,5 +360,33 @@ a {
     }
       #arrow {
       display: none;
+    }
+
+    .projects-page h1 {
+        margin: 0 auto;
+        font-size: 40px;
+    }
+
+    .projects-page h2 {
+        font-size: 18px;
+        margin: 0px;
+    }
+
+    .projects-page h3{
+        font-size: 14px;
+        margin: 0px;
+    }
+
+    .projects-page .name-naomi {
+        display: none;
+    }
+
+    .projects-page .project-picture {
+        width: 150px;
+        margin: 0px;
+    }
+
+    .project-4 {
+        color:rgba(52, 6, 6) !important;
     }
 }
