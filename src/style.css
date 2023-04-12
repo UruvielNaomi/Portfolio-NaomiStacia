@@ -53,9 +53,39 @@ a {
   background: #F0C146;
 }
 
+.contact-details {
+    margin-left: 600px;
+}
 .contact-element {
     text-align: center;
     margin-top:-150px;
+}
+
+.contact-page {
+    background: var(--secondary-color);
+}
+
+.contact-page h1 {
+    text-align: end;
+    position: absolute;
+    right: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    margin: 120px 120px 0px 120px;
+    border-bottom: 40px solid #ffff;
+    line-height: 35px;
+    width: 800px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.contact-page h2{
+    font-family: 'Questrial', sans-serif;
+}
+
+.contact-page .name-naomi {
+    margin-top: 300px;
 }
 
 .hello-page h2{
@@ -131,6 +161,10 @@ a {
 
 .navigation-bar-about li a {
     color: var(--main-color);
+}
+
+.navigation-bar-contact li a {
+    color: #ffff;
 }
 
 .profile-picture {
@@ -266,6 +300,15 @@ a {
     .about-page .button-element {
     margin-left: 600px;
     }
+
+    .contact-page h1 {
+        font-size: 60px;
+        width: 600px;
+    }
+
+    .contact-details {
+        margin-left: 350px;
+    }
 }
 
 
@@ -280,6 +323,10 @@ a {
     }
     .profile-picture {
         width: 200px;
+    }
+
+    .contact-details {
+        margin-left: 300px;
     }
 }
 
@@ -315,6 +362,30 @@ a {
     }
 
     .about-page .left-vertical-hr, .right-vertical-hr {
+        display: none;
+    }
+    
+    .contact-details {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: -100px;
+    }
+
+    .contact-page h1 {
+        font-size: 35px;
+        width: 350px;
+        position: relative;
+        top: 200px;
+        margin: 0 auto;
+        border-bottom: 20px solid #ffff;
+        line-height: 15px;
+    }
+
+    .contact-page h2 {
+        font-size: 20px;
+    }
+
+    .contact-page hr {
         display: none;
     }
 
