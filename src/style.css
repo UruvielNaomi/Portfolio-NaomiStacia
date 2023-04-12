@@ -9,6 +9,26 @@ a {
     text-decoration: none;
 }
 
+footer {
+    text-align: center;
+    background: #ffff;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+footer a {
+    color: #1e3050;
+}
+
+footer i {
+    font-size: 25px;
+    padding: 20px;
+}
+
+footer img{
+    margin-top: -7px;
+}
+
 .about-page {
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/074/962/original/Hello!_I_am_Naomi.png?1680505459");
     background-size: cover;
@@ -392,6 +412,10 @@ a {
     .hello-page h2 {
         font-size: 100px;
         margin-top: 120px;
+    }
+
+    .hello-page .name-naomi {
+        left: 15px;
     }
     
     .homepage h1 {
