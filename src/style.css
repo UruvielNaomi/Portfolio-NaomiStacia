@@ -29,6 +29,11 @@ footer img{
     margin-top: -7px;
 }
 
+footer p {
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;    
+}
+
 .about-page {
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/074/962/original/Hello!_I_am_Naomi.png?1680505459");
     background-size: cover;
