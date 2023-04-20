@@ -195,7 +195,11 @@ footer p {
 
 .profile-picture {
     width: 380px;
-    }
+}
+
+.project-container {
+    margin-top: 300px;
+}
 
 .projects-page {
   background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/075/341/original/Untitled_design_%281%29.png?1680685963");
@@ -335,6 +339,10 @@ footer p {
     .contact-details {
         margin-left: 350px;
     }
+
+    .project-container {
+        margin-top: 150px;
+    }
 }
 
 
@@ -468,6 +476,10 @@ footer p {
       display: none;
     }
 
+    .project-container {
+        margin-top: 0px;
+    }
+
     .projects-page h1 {
         margin: 0 auto;
         font-size: 40px;
@@ -492,7 +504,7 @@ footer p {
         margin: 0px;
     }
 
-    .project-4 {
+    .project-5 {
         color:rgba(52, 6, 6) !important;
     }
 }
