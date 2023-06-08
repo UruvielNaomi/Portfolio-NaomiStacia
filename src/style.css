@@ -259,6 +259,8 @@ footer p {
 .resume {
     color: var(--main-color);
     cursor: pointer;
+    font-size: 12px;
+    margin-right: 20px;
 }
 
 .low-horizontal-hr {
