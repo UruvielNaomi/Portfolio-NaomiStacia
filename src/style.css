@@ -256,6 +256,11 @@ footer p {
     transform: scale(1.8);
 }
 
+.resume {
+    color: var(--main-color);
+    cursor: pointer;
+}
+
 .low-horizontal-hr {
     border-width: 4px;
     opacity: unset;
